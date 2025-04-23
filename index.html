@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sarkari Result - Clone</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: black;
+      color: green;
+    }
+
+    header {
+      background-color: black;
+      color: green;
+      padding: 15px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: black;
+      padding: 10px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+    }
+
+    nav a {
+      color: green;
+      text-decoration: none;
+      padding: 8px 12px;
+      background-color: black;
+      border-radius: 5px;
+    }
+
+    nav a:hover {
+      background-color:black;
+    }
+
+    main {
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .box {
+      border: 1px solid #ddd;
+      background-color: #fff;
+      margin-bottom: 20px;
+      padding: 15px;
+      border-radius: 6px;
+    }
+
+    .box h2 {
+      background-color: black;
+      color: green;
+      padding: 10px;
+      border-radius: 4px;
+      margin-bottom: 10px;
+    }
+
+    .box ul {
+      list-style: disc;
+      padding-left: 20px;
+    }
+
+    footer {
+      background-color: black;
+      color: green;
+      text-align: center;
+      padding: 10px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 768px) {
+      nav ul {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SARKARI RESULT</h1>
+    <p>www.sarkariresult.com</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Latest Jobs</a></li>
+      <li><a href="#">Results</a></li>
+      <li><a href="#">Admit Card</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="box">
+      <h2>Latest Job Updates</h2>
+      <ul>
+        <li>UP Police Constable Recruitment 2025</li>
+        <li>SSC GD Constable Online Form 2025</li>
+        <li>IBPS Clerk XIII Recruitment</li>
+      </ul>
+    </div>
+
+    <div class="box">
+      <h2>Results</h2>
+      <ul>
+        <li>CTET January 2025 Result</li>
+        <li>SSC CGL 2024 Tier II Result</li>
+        <li>UPSSSC PET 2024 Score Card</li>
+      </ul>
+    </div>
+
+    <div class="box">
+      <h2>Admit Cards</h2>
+      <ul>
+        <li>RRB Group D Admit Card</li>
+        <li>UPPSC PCS 2025 Pre Admit Card</li>
+        <li>SSC CHSL Tier 1 Admit Card</li>
+      </ul>
+    </div>
+  </main>
+
+  <footer>
+    <p>Disclaimer: This is a practice clone of the SarkariResult website for educational purposes only.</p>
+  </footer>
+</body>
+</html>
